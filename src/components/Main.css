@@ -1,0 +1,68 @@
+.app-main{
+  width:70%;
+  height:100Vh;
+}
+
+.app-main-note-edit,
+.app-main-note-preview{
+  height:50Vh;
+}
+
+.app-main-note-edit{
+  padding:25px;
+}
+
+.app-main-note-edit input, textarea{
+  display:block;
+  border:1px solid #ddd;
+  margin-bottom:20px;
+  width:100%;
+  height:calc(50vh - 130px);
+  padding:5px;
+  resize:none;
+  font-size:16px;
+}
+
+.app-main-note-edit input{
+  height:50px;
+  font-size:1.5rem;
+  padding-left:20px;
+}
+
+.app-main-note-preview {
+  border-top: 1px solid #ddd;
+  overflow-y:scroll;
+  background: rgba(0,0,0,0.02);
+  margin:0 25px 20px 25px;
+}
+
+.preview-title{
+  padding:25px 25px 0 25px;
+  font-size: 1.5rem;
+  border-bottom:1px dashed #999;
+  padding-bottom:24px;
+}
+
+.markdown-preview{
+  padding:0px 25px 25px 25px;
+  line-height: 2rem;
+}
+
+.no-active-note{
+  width:70%;
+  height:100vh;
+  line-height: 100vh;
+  text-align: center;
+  font-size: 1.5rem;
+  color:#999;
+}
+
+.note-title-save{
+  display:flex;
+}
+
+.note-title-save button{
+  margin-left:50px;
+  width:140px;
+  margin-bottom:20px;
+}
